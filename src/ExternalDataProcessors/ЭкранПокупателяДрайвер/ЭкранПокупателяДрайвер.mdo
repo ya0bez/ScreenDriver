@@ -32,4 +32,13 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="429bf08c-477d-4b25-9f5b-e7e1cd18c372">
+    <name>ДополнительныеДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные действия</value>
+    </synonym>
+    <comment>Дополнительные действия</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>
