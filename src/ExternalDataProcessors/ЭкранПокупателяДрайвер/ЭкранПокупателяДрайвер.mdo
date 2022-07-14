@@ -41,4 +41,12 @@
     <comment>Дополнительные действия</comment>
     <templateType>TextDocument</templateType>
   </templates>
+  <templates uuid="ef5c22a4-2309-4de4-830a-98a0b35ac55b">
+    <name>ПараметрыЭкранаПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры экрана покупателя</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
 </mdclass:ExternalDataProcessor>

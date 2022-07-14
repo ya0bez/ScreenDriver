@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerDisplayOptions 
+      Columns="1920" 
+      Rows="1080" 
+      DisplayText="true" 
+      DisplayQRCode="true"/>
