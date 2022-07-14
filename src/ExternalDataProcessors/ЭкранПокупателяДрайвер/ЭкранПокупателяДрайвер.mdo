@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd3221a0-497e-42eb-9975-e1c1834e7d27">
+  <producedTypes>
+    <objectType typeId="b5fa4641-a726-49e6-ab75-3cf82c58387a" valueTypeId="bb7ec9fe-aac7-4cd0-ae0b-04f287fd5d06"/>
+  </producedTypes>
+  <name>ЭкранПокупателяДрайвер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Драйвер экрана покупателя ЛОТРЗ</value>
+  </synonym>
+  <comment>v. 1.1.1 от 14.07.2022</comment>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="4a954ad7-549c-4cd5-b56a-fec611de6dbf"/>
+</mdclass:ExternalDataProcessor>
