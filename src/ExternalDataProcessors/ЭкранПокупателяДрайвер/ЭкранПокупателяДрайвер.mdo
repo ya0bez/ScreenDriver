@@ -10,6 +10,7 @@
   </synonym>
   <comment>v. 1.1.1 от 14.07.2022</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="4a954ad7-549c-4cd5-b56a-fec611de6dbf"/>
+  <defaultForm>ExternalDataProcessor.ЭкранПокупателяДрайвер.Form.ФормаОтладки</defaultForm>
   <attributes uuid="582bf823-3b0a-4dfb-8484-7c1189124912">
     <name>ПараметрыДрайвера</name>
     <synonym>
@@ -24,6 +25,38 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="031b133e-60ea-4757-929f-fbef3b1006dc">
+    <name>Экран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экран</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2bba0138-883f-4583-815d-0b867cc242d7">
+    <name>ФормаОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отладки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbf1a1f9-e017-43b9-a446-23454b1cb3e6">
+    <name>ОкноПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окно покупателя</value>
+    </synonym>
+    <comment>Окно через которое происходит трансляция информационной нагрузки</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="dc384b5a-f713-4283-9105-241c55af246a">
     <name>ПараметрыДрайвера</name>
     <synonym>
@@ -48,5 +81,13 @@
       <value>Параметры экрана покупателя</value>
     </synonym>
     <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e3d22139-0b23-4a98-ac29-27847db2f0b3">
+    <name>ТестЭкран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест экран</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
   </templates>
 </mdclass:ExternalDataProcessor>

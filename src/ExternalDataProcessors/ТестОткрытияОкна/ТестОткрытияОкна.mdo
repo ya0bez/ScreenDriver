@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d9cb358-628c-46b1-8dc4-3539985b2616">
+  <producedTypes>
+    <objectType typeId="f15154f9-abff-4b31-a3e5-17fa84e96978" valueTypeId="cb60ee1a-ec22-4bb7-b0f0-a91ee4f8bf10"/>
+  </producedTypes>
+  <name>ТестОткрытияОкна</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест открытия окна</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="45d6c644-3f56-41a8-95c4-c6dd4c59103b"/>
+  <defaultForm>ExternalDataProcessor.ТестОткрытияОкна.Form.Старт</defaultForm>
+  <attributes uuid="f4c9c295-da2c-4649-ab8b-2d318a38de8c">
+    <name>ТестовыйРеквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестовый реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e0a90d5f-1c83-4781-ad58-3b19da9c3967">
+    <name>ВызываемоеОкно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вызываемое окно</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48021afd-4d83-423c-bd2b-f123b3578359">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ExternalDataProcessor>
